@@ -9,7 +9,7 @@ public class HelloController {
 
     @RequestMapping("/")
     public String greet(){
-        return "hello bro";
+        return "hello user and i am glad that you made it here!!!(it was not working before so a lot of people didn't even passed the controller layer";
     }
 
 }
