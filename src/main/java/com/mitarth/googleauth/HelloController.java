@@ -11,5 +11,9 @@ public class HelloController {
     public String greet(){
         return "hello user and i am glad that you made it here!!!(it was not working before so a lot of people didn't even passed the controller layer";
     }
+    @RequestMapping("/about")
+    public String greet(){
+        return "this is not for commercial use, this is a practice repo for Oauth in google you can change it to github too just update the application properties and paste your github link there ";
+    }
 
 }
