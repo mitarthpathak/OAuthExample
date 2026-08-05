@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-
+//this is the faltu conrtoller and your Oauth application has nothing to do with it
     @RequestMapping("/")
     public String greet(){
         return "hello user and i am glad that you made it here!!!(it was not working before so a lot of people didn't even passed the controller layer";
